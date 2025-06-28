@@ -1,0 +1,60 @@
+                                          2025-06-28 13:30:20
+================================================================================================================================
+================================================ Sheet Comparison =================================================='
+Comparing sheets between 'BEFORE DATA 5.0.xlsx' and 'AFTER DATA 5.0.xlsx'.
+BEFORE DATA 5.0.xlsx sheet count: 3
+AFTER DATA 5.0.xlsx sheet count: 4
+================================================Extra sheet Names comparation==============================================
+AFTER DATA 5.0.xlsx : [Excel Compare4]
+================================================Row Count Mismatch========================================
+Row count mismatch in sheet 'Excel Compare1':
+BEFORE DATA 5.0.xlsx :8 rows
+AFTER DATA 5.0.xlsx :4 rows
+
+================================================Column Count Mismatch======================================
+Column count mismatch in sheet 'Excel Compare1':
+BEFORE DATA 5.0.xlsx :3 columns
+AFTER DATA 5.0.xlsx :4 columns
+
+================================================Header Name Mismatch=====================================
+Extra column in AFTER DATA 5.0.xlsx at column 4 in sheet 'Excel Compare1': 'Test  Scanerios'
+Header name mismatch at column 2 in sheet 'Excel Compare1': 'Test case' vs 'Test case Name'
+Header name mismatch at column 3 in sheet 'Excel Compare1': 'Test  ScaneriosName' vs 'Test  Scanerios'
+================================================Row and Column Name Comparison======================================
+Extra column in AFTER DATA 5.0.xlsx at row 1, column 4 in sheet 'Excel Compare1': 'Test  Scanerios'
+Extra column in AFTER DATA 5.0.xlsx at row 2, column 4 in sheet 'Excel Compare1': 'Test Scanrio1'
+Extra column in AFTER DATA 5.0.xlsx at row 3, column 4 in sheet 'Excel Compare1': 'Test scenario2'
+Extra column in AFTER DATA 5.0.xlsx at row 4, column 1 in sheet 'Excel Compare1': '3.0'
+Extra column in AFTER DATA 5.0.xlsx at row 4, column 2 in sheet 'Excel Compare1': 'Test case2'
+Extra column in AFTER DATA 5.0.xlsx at row 4, column 4 in sheet 'Excel Compare1': 'Test scenario2'
+Extra column in BEFORE DATA 5.0.xlsx at row 5, column 3 in sheet 'Excel Compare1': 'Test scenario4'
+Extra column in BEFORE DATA 5.0.xlsx at row 6, column 3 in sheet 'Excel Compare1': 'Test scenario5'
+Extra column in BEFORE DATA 5.0.xlsx at row 7, column 3 in sheet 'Excel Compare1': 'Test scenario6'
+Extra column in BEFORE DATA 5.0.xlsx at row 8, column 3 in sheet 'Excel Compare1': 'Test scenario7'
+
+
+================================================Row and Column Name Comparison======================================
+
+
+================================================Row Count Mismatch========================================
+Row count mismatch in sheet 'Excel Compare2':
+BEFORE DATA 5.0.xlsx :4 rows
+AFTER DATA 5.0.xlsx :3 rows
+
+================================================Column Count Mismatch======================================
+Column count mismatch in sheet 'Excel Compare2':
+BEFORE DATA 5.0.xlsx :3 columns
+AFTER DATA 5.0.xlsx :2 columns
+
+================================================Header Name Mismatch=====================================
+Extra column in BEFORE DATA 5.0.xlsx at column 3 in sheet 'Excel Compare2': 'Test  Scanerios Name'
+Header name mismatch at column 2 in sheet 'Excel Compare2': 'Test case' vs 'Test case Name'
+================================================Row and Column Name Comparison======================================
+Extra column in BEFORE DATA 5.0.xlsx at row 1, column 3 in sheet 'Excel Compare2': 'Test  Scanerios Name'
+Extra column in BEFORE DATA 5.0.xlsx at row 2, column 1 in sheet 'Excel Compare2': '1.0'
+Extra column in BEFORE DATA 5.0.xlsx at row 2, column 2 in sheet 'Excel Compare2': 'Test case1'
+Extra column in BEFORE DATA 5.0.xlsx at row 2, column 3 in sheet 'Excel Compare2': 'Test Scanrio1'
+Extra column in BEFORE DATA 5.0.xlsx at row 3, column 3 in sheet 'Excel Compare2': 'Test scenario2'
+Extra column in BEFORE DATA 5.0.xlsx at row 4, column 3 in sheet 'Excel Compare2': 'Test scenario3'
+
+
