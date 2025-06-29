@@ -1,13 +1,11 @@
 package utils;
 
-import java.io.FileWriter;
-
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 
 public class HeaderComparator {
-    public static void compareHeaderCountAndNames(XSSFSheet sheet1, XSSFSheet sheet2, String file1, String file2,FileWriter myWriter) throws Exception {
+    public static void compareHeaderCountAndNames(XSSFSheet sheet1, XSSFSheet sheet2, String file1, String file2, HtmlLogger myWriter) throws Exception {
         Row header1 = sheet1.getRow(0);
         Row header2 = sheet2.getRow(0);
         int count1 = (header1 != null) ? header1.getPhysicalNumberOfCells() : 0;
@@ -50,8 +48,8 @@ public class HeaderComparator {
             }
         }
         if (nameMismatchBuilder.length() > 0) {
-            myWriter.write("================================================Header Name Mismatch=====================================\n");
-            myWriter.write(nameMismatchBuilder.toString());
+            myWriter.write("<h2 style='color:red;'>Header Name Mismatch</h2>\n");
+            myWriter.write("<pre>" + nameMismatchBuilder.toString() + "</pre>\n");
         }
     }
 
